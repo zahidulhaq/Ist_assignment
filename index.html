@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burbs</title>
+    <style type="text/css">
+      .scrollop{
+        
+          
+          position:-webkit-sticky;
+          position:sticky;
+          top:0;
+          height:130px;
+          width:1200px;
+          
+          display:flex;
+         background-color: burlywood;
+         opacity:0.8;
+         z-index: 999;
+          
+      }
+      .scrollop:hover{
+          opacity:1;
+
+      }
+      
+      .topleft{
+          
+          margin-right: 50px;
+          margin-left: 50px;
+          
+      }
+      .button{
+          margin-top: 80px;
+          height:26px;
+          width:125px;
+          margin-left: 50px;
+          border: 4px solid rgb(27, 27, 26);
+          text-align: center;
+          
+          font-size: 22px;
+          border-radius: 8px;
+          background-color: rgb(78, 62, 40);
+      }
+
+          
+      
+      a:link{
+          font-weight: bolder;
+          color: white;
+        
+          font-family:sans-serif;
+          border-radius: 80px;
+          text-decoration: none;
+    
+      }
+      .title{
+         
+          display:flex;
+          text-align: center;
+          align-items: center;
+        
+          margin-top:2px;
+        }
+       
+      .titlee{
+          width:450px;
+     
+        height:450px;
+          font-size:28px;
+          
+          background-color:#f8e084;
+          display:flex;
+          flex-direction: column;
+      
+          padding-left: 20px;
+         padding-right: 20px;
+         margin-right: 5px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    
+
+      }
+      .buttond{
+         
+          border: 3px rgb(54, 25, 25) solid;
+          margin-left: 50px;
+          background-color: rgb(78, 62, 40);
+          border-radius: 20px;
+          
+          
+      }
+   
+
+.card:hover {
+  font-size: 20px;
+  
+
+}
+.container {
+  padding: 2px 16px;
+}
+.form{
+    align-content: center;
+    text-align: center;
+    opacity:0.6;
+  background-color: rgb(53, 65, 65);
+    width:1200px;
+    height:470px;
+    -webkit-flow-from: inherit;
+    color:white;
+}
+      .titlee:hover{
+          color:#966F33;
+          font-weight: bold;
+      }
+      html {
+  scroll-behavior: smooth;
+}
+.re{
+    width:1200px;
+    opacity:0.9;
+    background-image: url(https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=757&q=80);
+}
+
+      a:visited{
+          color:white;
+      }
+      a:link:hover{
+          color:white;
+          text-decoration:dashed ;
+          font-size: 26px;
+          
+      }
+.fa {
+  font-size: 10px;
+  width: 35px;
+text-align: center;
+margin-left: 100px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.links{
+    background-color:#f8e084;
+    width:1200px;
+    text-align: center;
+    display:flex;
+    height:50px;
+    margin-top: 20px;
+    position: -webkit-sticky;
+    position:sticky;
+    bottom:0px;
+
+
+}
+.mpic:hover{
+border-radius: 100px;
+
+}
+.footer{
+    display:flex;
+    width:1200px;
+height:80px;
+background-color:#ecdd9e;
+display:flex;
+
+color:rgb(175, 54, 10)
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color:#a59197;
+  width:1200px;
+  display:flex;
+  border-radius: 1175px;
+  
+}
+.pic{
+    width:130px;
+    border-radius:140px;
+    
+}
+.pic:hover{
+    width:140px;
+}
+.rowflex{
+    display:flex;
+    width:1200px;
+    background-color: rgb(167, 159, 149);
+    margin-top: 1px;
+    opacity: 0.5;
+
+}
+.rowflex{
+    opacity:1;
+}
+.buttonp{
+    background-color:#110606 ;
+    padding-top: 1px;
+    width: 200px;
+    margin-left: 100px;
+    height:25px;
+    margin-top:10px;
+    border-radius: 70px;
+    margin-top: 10px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-left:96px;
+  margin-right: 96px;
+}
+.colflex{
+    display:flex;
+    flex-direction: column;
+}
+.subc{
+    text-align: center;
+    font-size: 20px;
+    font-family:cursive;
+   
+}
+.subc:hover{
+    font-size: 25px;
+}
+textarea:focus {
+  background: pink;
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  font-size: 20px;
+}
+.container {
+  padding: 2px 16px;
+}
+      .center{
+          text-align: center;
+          font-size: 40px;
+          font-family: cursive;
+      }
+      .center:hover{
+   font-size: 50px;
+      }
+      .r{
+          width:1200px;
+          background-color: burlywood;
+          
+        }
+        .search{
+       display:flex;
+       background-color: burlywood;
+       margin-top: 5px;
+       width:721px;
+       align-items: center;
+       height:50px;
+       padding-left: 400px;
+
+        }
+       
+      .button:hover{
+          text-decoration: solid;
+          background-color: rgb(2, 2, 2);
+          opacity: 0.8;
+          border-radius: 5px;
+          
+      }  
+      .spc{
+          background-color:  rgb(177, 151, 121);
+          width:1200px;
+          height:200px;
+          
+      }
+      .spc:hover{
+          background-color: rgb(194, 135, 67);
+      }
+      .t1{
+          font-size: 70px;
+          color: rgb(78, 62, 40;
+      }
+      
+    </style>
+</head>
+<body>
+    <a name="top"></a>
+    <div class="scrollop">
+        <div class="topleft"><img src="https://ci5.googleusercontent.com/proxy/sOpREFM02EBm-kpBBVxNbejSZtH4e0PNquyQVhLPkxhMu6nDJhp5fSEuQ0iMVzKH1_UYxRg7Qyoggm2Sga7V8hmSX073Ih8Z_PyeNySLNEmrLYLansMtqdJ0FPK0tHI-3KIokFY1y3ObawTDXZFf3Cv9sg=s0-d-e1-ft#https://api.freelogodesign.org/files/eb18aba2763e468cb9a6b3aa7b00f66b/thumb/logo_200x200.png?v=0" height="130px" > </div>
+        <div class="button"><a  href="#check">Specialities</a></div> 
+        <div class="button"><a href="#review">Reviews</a></div> 
+        <div class="button"><a href="#rec">Suggests</a></div> 
+        <div class="button"><a  href="#sea"> Search</a></div>     
+       <div class="button"><a href="#bottom">Bottom</a></div>
+    </div>
+    <div >
+
+    </div>
+   <div class="title">
+      <div class="titlee">
+          <h1 class="t1">
+              BuRBS 
+          </h1>
+          <br/>
+              Rolling and serving
+         <br/>
+            since 1994
+            <br/><br/>
+          <div class="buttond">
+            <a href="#check">Check our specialities</a></div>
+        
+      </div>
+      <div class="imgg">
+      <p>
+      <img src="https://ae01.alicdn.com/kf/H4a6cfe68e1014bc09f18b627c1614095n.jpg?width=800&height=800&hash=1600" width="700px" height="450px"/>
+      </p>
+     
+      </div>
+   </div>
+   <div>
+   <div class="spc">
+    <h2 class="center">Our specialities</h2>
+    <p class="subc">We serve Coffee ,Waffles and much more.</p>
+    
+    </div>
+   </div>
+   <div class="rowflex">
+   <a name="check"></a>
+   <div class="colflex">
+    <div class="card2">
+  <img src="https://scontent.fluh1-1.fna.fbcdn.net/v/t1.6435-9/168824273_4117766164956403_3587092514498885033_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=9267fe&_nc_ohc=bEicyobfIEMAX-oIcYb&_nc_ht=scontent.fluh1-1.fna&oh=e4b70e9858bef7b3b401ffa7b8532e6d&oe=60C6611E"width="200px" class="mpic"height="200" alt="Avatar">
+  <div class="container">
+  
+    <h4><b>Pasta(Veg)</b></h4> 
+    <p>Rs:-300/serve</p>
+    <p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+</div>
+<div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/t1.6435-9/168712583_4103195876413432_4349755895202865911_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=9267fe&_nc_ohc=RvP-apO63G8AX8Lnduy&_nc_ht=scontent.fluh1-2.fna&oh=ec360e8da09fcacfca927c447d17322e&oe=60C5CA47"width="200px"class="mpic"height="200"alt="Avatar">
+  <div class="container">
+    <h4><b>Garlic Bread(Veg)</b></h4>
+    <p>Rs:200/serve</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+
+   </div>
+   <div class="card2">
+  <img src="https://scontent.fluh1-1.fna.fbcdn.net/v/t1.6435-9/164691220_4088608594538827_5968304963260859578_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=a26aad&_nc_ohc=TbmyAqh1jtkAX-fOjqk&_nc_ht=scontent.fluh1-1.fna&oh=9214b557566db7d8383409bbdf5d0509&oe=60C58BC3"width="200px" class="mpic" height="200"alt="Avatar">
+  <div class="container">
+    <h4><b>Alfredo(veg)</b></h4>
+    <p>Creamy Alfredo Pasta is our most cherished dish on the menu! For good enough reasons! You have to try to understand what we're really tryna say!</p>
+    <p>Rs:-400/serve</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+
+  </div>
+
+   </div>
+  
+   </div>
+   <div class="colflex">
+    <div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/t1.6435-0/p526x296/162576367_4057123181020702_4896146596102339719_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=a26aad&_nc_ohc=85oxa_rvkj0AX-B7kqB&_nc_ht=scontent.fluh1-2.fna&tp=6&oh=376977f7bd235ec34c1f31d509604564&oe=60C5BF7B"width="200px" height="200" class="mpic"alt="Avatar">
+  <div class="container">
+    <h4><b>Strawberry pancakes(Veg)</b></h4>
+    <p>Rs:-160/serve</p>
+    <p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+</div>
+<div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/l/t1.6435-0/p526x296/120062734_3571553949577630_7488217044038347275_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=a26aad&_nc_ohc=64tNfP9gr-kAX92Na4W&_nc_ht=scontent.fluh1-2.fna&tp=6&oh=90bad1069230b4c07e876e8cd68b55e2&oe=60C6FFAB"width="200px"height="200" class="mpic"alt="Avatar">
+  <div class="container">
+    <h4><b>Gourmet pizza(Non Veg)</b></h4>
+    <p>Rs:-580/serve</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+
+   </div>
+   <div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/t1.6435-0/p526x296/150167552_752709175373850_8619662322878669013_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=a26aad&_nc_ohc=ikR7NXVgNdgAX--xo8i&_nc_ht=scontent.fluh1-2.fna&tp=6&oh=aa24042c5342e9abdabe38d0176dd76c&oe=60C63DCA"width="200px" class="mpic"height="200"alt="Avatar">
+  <div class="container">
+    <h4><b>Chicken peri peri wrap(Non Veg)</b></h4>
+    <p>Chicken peri peri is one of the dishes tht our restraunt has been famous for.Do consider taking a bite of our special dish. We would be happy to serve you.</p>
+    <p>Rs:-400/server</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+
+   </div>
+  
+   </div>
+   <div class="colflex">
+    <div class="card2">
+  <img src="https://scontent.fluh1-1.fna.fbcdn.net/v/t1.6435-9/140388264_3904600636272958_9112023574562477693_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=a26aad&_nc_ohc=V0BkL1_kGiQAX8DjFEz&_nc_ht=scontent.fluh1-1.fna&oh=b093dcf0b47ab316fe0d58dddba8b928&oe=60C6687F"width="200px" class="mpic"height="200" alt="Avatar">
+  <div class="container">
+    <h4><b>Mexican twist</b></h4>
+    <p> our Mexican twist with a trip down the cheesy cheesy lanes— Nachos topped with chicken, bell peppers and all the cheese we had with us! You’ll be licking your fingers so don’t forget to sanitise em</p>
+    <p>Rs:-600/serve</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+</div>
+<div class="card2">
+  <img src="https://scontent.fluh1-1.fna.fbcdn.net/v/t1.6435-0/p526x296/105603007_3294013740664987_5419332356690545265_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=9267fe&_nc_ohc=DYw82DJp3S4AX9BiFun&_nc_ht=scontent.fluh1-1.fna&tp=6&oh=1d440288156d1465b9ea1adbba505bfc&oe=60C502B2"width="200px"height="200" class="mpic"alt="Avatar">
+  <div class="container">
+    <h4><b>C. tooth waffle(non veg)</b></h4>
+    <p>Chocolate tooth waffle is the choice of almost everybody in the city! Try it and thank us later! </p>
+    <p>Rs:-230/serve</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+
+   </div>
+   <div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/t1.6435-0/p526x296/105491660_3293436257389402_7343575363829106802_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=9267fe&_nc_ohc=adMpPzBtX30AX8SufXc&_nc_ht=scontent.fluh1-2.fna&tp=6&oh=0fd5dd9c171f8719387158eec0e9e2e9&oe=60C5D82E"width="200px" height="200" class="mpic"alt="Avatar">
+  <div class="container">
+    <h4><b>Fish n chip</b></h4>
+    <p>Rs:-140/serve</p><p><form> <select>
+              <option>Add</option>
+              <option>Add to cart</option>
+              <option>Buy now</option>
+              <option>Not intrested</optioN>
+          </select></form></p>
+  </div>
+  <a name="sea"></a>
+
+   </div>
+  
+   </div>
+   </div>
+   
+   <div class="r">
+   <a name="rec"></a>
+   <h2 class="center">Recommended</h2>
+
+    <div class="search">
+    
+<div>
+    <form>
+<input type="text" placeholder="Search"/>
+</form>
+</div>
+<div>
+    <form><input type="submit" value="Search"</form>
+</div>
+<strong> &nbsp; &nbsp:or &nbsp;&nbsp </strong>
+<div>
+    <select>
+              <option>Select from menu</option>
+              <option>Momos</option>
+              <option>Alfredo</option>
+              <option>Pizza</optioN>
+                <option>Fries</option>
+              <option>Alfredo buio</option>
+              <option>Momos</option>
+              <option>Alfredo chui</option>
+              <option>Momos kuii</option>
+              <option>tretoo</option>
+              <option>Rista</option>
+              <option>Kebabs</option>
+          </select>
+</div>
+   </div>
+   <div class="rowflex">
+    <div class="card2">
+  <img src="https://scontent.fluh1-1.fna.fbcdn.net/v/t1.6435-0/p526x296/105603007_3294013740664987_5419332356690545265_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=9267fe&_nc_ohc=DYw82DJp3S4AX9BiFun&_nc_ht=scontent.fluh1-1.fna&tp=6&oh=1d440288156d1465b9ea1adbba505bfc&oe=60C502B2"width="200px"height="200" class="mpic"alt="Avatar">
+  <div class="container">
+    <h4><b>C. tooth waffle(non veg)</b></h4>
+    </div>
+   </div>
+   <div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/t1.6435-9/168712583_4103195876413432_4349755895202865911_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=9267fe&_nc_ohc=RvP-apO63G8AX8Lnduy&_nc_ht=scontent.fluh1-2.fna&oh=ec360e8da09fcacfca927c447d17322e&oe=60C5CA47"width="200px"class="mpic"height="200"alt="Avatar">
+  <div class="container">
+    <h4><b>Garlic Bread(Veg)</b></h4>
+    </div>
+       
+   </div>
+   <div class="card2">
+  <img src="https://scontent.fluh1-2.fna.fbcdn.net/v/l/t1.6435-0/p526x296/120062734_3571553949577630_7488217044038347275_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=a26aad&_nc_ohc=64tNfP9gr-kAX92Na4W&_nc_ht=scontent.fluh1-2.fna&tp=6&oh=90bad1069230b4c07e876e8cd68b55e2&oe=60C6FFAB"width="200px"height="200" class="mpic"alt="Avatar">
+  <div class="container">
+    <h4><b>Gourmet pizza(Non Veg)</b></h4>
+    /
+    </div>
+    </div>
+   </div>
+  
+    <div class="re">
+    <div >
+    <a name="review"/>
+    <h2 class="center">
+    Reviews </h2>
+   
+    <div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/220px-Mohamed_Salah_2018.jpg" width="130px" class="pic" alt="Avatar" >
+  <div class="container">
+    <h3><b>Mohammed Saleh</b></h3>
+    <p>One of the best restaurants in the valley. Almost everytime we visited, it was full . One needs to book tables early. The prices here are pretty less as compared to the rest of the restraunts around.The best part is that the delivery system is quite fast..</p>
+  </div>
+</div>
+<br/>
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/220px-Cristiano_Ronaldo_2018.jpg" class="pic" width='130px' alt="Avatar" >
+  <div class="container">
+    <h3><b>Christiano Ronaldo</b></h3>
+    <p>OThe food was absolutely wonderful, from preparation to presentation, very pleasing. We especially enjoyed the special bar drinks, the cucumber/cilantro infused vodka martini and the K&P Aquarium was great (even took photos so we could try to replicate at home).
+</p>
+  </div>
+</div>
+</div>
+</div>
+<div class="form">
+
+<form>
+<h2>Write a review:-</h2>
+
+    <input type="text" placeholder="Enter your name"/>
+
+    <br/><br/><br/><br/>
+<input  type="text" placeholder="Email address"/>
+<br/><br/><br/>
+<h3>Rate us on a scale of 1-5</h3>
+<select>
+              <option>Click me to rate</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              
+          </select>
+          <h3>Write a detailed review:-</h3>
+          <textarea></textarea> 
+          <br/><br/><br/>
+          <input type="submit" />
+</form>
+
+<br/><br/><br/> 
+
+<div class="links" >
+<div class="buttonp"><a href="https://www1.gogoanime.ai/category/shingeki-no-kyojin" target="_blank">Copyright</a></div>
+<div class="buttonp">
+<a href="https://www.google.com/search?q=branches&oq=branches&aqs=chrome..69i57j0i67j0i433j0l2j0i433j0l2j0i433l2.4255j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Outlets</a>
+</div>
+<div class="buttonp">
+<a href="#top">Top</a>
+</div>
+<div class="buttonp">
+<a href="https://www.google.com/search?q=terms+and+conditions&oq=terms+an+c&aqs=chrome.1.69i57j0i10i433j0i10l2j46i10j0i10l3j0i10i131i433j0i10.4834j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Terms</a>
+</div>
+<div class="buttonp">
+<a href="https://www.google.com/search?q=privacy+policy&sxsrf=ALeKk03U8IThiiZMnvraISqmIH3DahLwRQ%3A1621160776609&ei=SPOgYPndJIrYz7sP3eGf0Ac&oq=privacy&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIHCAAQsQMQQzIECAAQQzICCAAyAggAMgQIABBDMgUIABCxAzoHCAAQRxCwAzoHCAAQsAMQQzoECCMQJzoECC4QQzoHCCMQ6gIQJzoHCC4Q6gIQJzoFCC4QsQM6CAgAELEDEIMBOgcIABCxAxAKUOzuAljfrQNg2r8DaAxwAngEgAGzAogB7xWSAQgwLjExLjMuMZgBAKABAaoBB2d3cy13aXqwAQrIAQrAAQE&sclient=gws-wiz" target="_blank">policy</a>
+</div>
+</div>
+
+
+<div class="footer"> <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<strong>Connect with us on our social media handles:-</strong>
+<div><a href="https://www.facebook.com/im.zahid182/" target="_blank" class="fa fa-facebook">f</a></div>
+<div><a href="https://twitter.com/im_zahid182" target="_blank"class="fa fa-twitter">t</a></div>
+<br/><br/>
+Thank you!
+</div>
+<a name="bottom"></a>
+
+</body>
+
+</html>
